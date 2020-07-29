@@ -1,0 +1,44 @@
+*{
+	margin: 10px;
+	padding: 10px;
+	background-color: yellow;
+}
+
+.photo1 {
+	float: left;
+	width: 300px;
+}
+
+.photo2{
+	float: right;
+	width: 300px;
+}
+
+.text{
+	font-family: futura;
+}
+
+@media(max-width: 767px){
+	*{
+		background-color: orange;
+	}
+	.text{
+		color: white;
+	}
+	.photo1,.photo2{
+		width: 250px;
+	}
+}
+
+@media(max-width: 500px){         
+	*{
+		background-color: green;
+	}
+	.text{
+		width: 250px;
+		color: white;
+	}
+	img{
+		margin-right: 80px;
+	}
+}

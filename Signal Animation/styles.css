@@ -1,0 +1,113 @@
+
+@keyframes moving{
+  50% { transform: translateX(0px);}
+  100% { transform: translateX(1000px); }
+}
+.car{
+	padding-top: 250px;
+	width: 300px;
+	animation: moving 15s infinite linear;
+}
+
+.signal{
+	width: 10px; 
+	height: 150px;
+}
+
+hr{
+	color:black;
+	background-color:black;
+	padding-bottom: 20px;
+	margin-bottom: 100px;
+}
+
+.wheel1{
+  animation: rotation 8s infinite linear;
+  position: absolute;
+  top: 67%;
+  width: 65px;
+  margin-top: 71px;
+  margin-left: 14px;
+}
+
+.wheel2{
+  animation: rotation 15s infinite linear;
+  position: absolute;
+  top: 67%;
+  width: 65px;
+  margin-top: 71px;
+  margin-left: 225px;
+}
+
+@keyframes rotation{
+   40% { transform: rotate(0deg);}
+  100% { transform: rotate(359deg);}
+}
+
+.red{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 64px;
+  margin-left: 43px;
+  opacity: 100%;
+  animation: redglow 15s linear infinite alternate;
+
+}
+
+.yellow{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 157px;
+  margin-left: 43px;
+  animation: yellowglow 15s linear infinite alternate;
+}
+
+.green{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: #90EE90;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 252px;
+  margin-left: 43px;
+  animation: greenglow 15s linear infinite alternate;
+}
+@keyframes redglow{
+  0% { box-shadow:0 0 100px red, inset 0 0 100px red; opacity: 1; }
+  20% { box-shadow:0 0 70px red, inset 0 0 70px red; opacity: 1;}
+  30% { box-shadow:0 0 60px red, inset 0 0 60px red; opacity: .1; }
+  40% { box-shadow:0 0 50px red, inset 0 0 50px red; opacity: .1;}
+  50% { box-shadow:0 0 40px red, inset 0 0 40px red; opacity: .1; }
+  60% { box-shadow:0 0 30px red, inset 0 0 30px red; opacity: .1;}
+  70% { box-shadow:0 0 20px red, inset 0 0 20px red; opacity: 1; }
+  100% { box-shadow:0 0 0px red, inset 0 0 0px red;opacity: 1; }
+}
+@keyframes yellowglow{
+  0% { box-shadow:0 0 0px yellow, inset 0 0 0px yellow; opacity: .1; }
+  20% { box-shadow:0 0 50px yellow, inset 0 0 50px yellow; opacity: .1;}
+  30% { box-shadow:0 0 100px yellow, inset 0 0 100px yellow; opacity: 1; }
+  40% { box-shadow:0 0 50px yellow, inset 0 0 50px yellow; opacity: 1;}
+  50% { box-shadow:0 0 3px yellow, inset 0 0 30px yellow; opacity: .1; }
+  60% { box-shadow:0 0 20px yellow, inset 0 0 20px yellow; opacity: .1;}
+  70% { box-shadow:0 0 10px yellow, inset 0 0 10px yellow; opacity: 1; }
+  100% { box-shadow:0 0 0px yellow, inset 0 0 0px yellow;opacity: .1; }
+}
+@keyframes greenglow{
+  0% { box-shadow:0 0 0px #00ff00, inset 0 0 0px #00ff00; opacity: .1; }
+  20% { box-shadow:0 0 20px #00ff00, inset 0 0 20px #00ff00; opacity: .1;}
+  30% { box-shadow:0 0 30px #00ff00, inset 0 0 30px #00ff00; opacity: .1; }
+  40% { box-shadow:0 0 40px #00ff00, inset 0 0 40px #00ff00; opacity: .1;}
+  50% { box-shadow:0 0 50px #00ff00, inset 0 0 50px #00ff00; opacity: 1; }
+  60% { box-shadow:0 0 60px #00ff00, inset 0 0 60px #00ff00; opacity: 1;}
+  70% { box-shadow:0 0 70px #00ff00, inset 0 0 70px #00ff00; opacity: .1; }
+  100% { box-shadow:0 0 100px #00ff00, inset 0 0 100px #00ff00;opacity: .1; }
+}
