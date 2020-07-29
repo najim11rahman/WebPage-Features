@@ -1,4 +1,3 @@
-
 @keyframes moving{
   50% { transform: translateX(0px);}
   100% { transform: translateX(1000px); }
@@ -22,7 +21,7 @@ hr{
 }
 
 .wheel1{
-  animation: rotation 8s infinite linear;
+  animation: rotation 15s infinite linear;
   position: absolute;
   top: 67%;
   width: 65px;
@@ -40,7 +39,7 @@ hr{
 }
 
 @keyframes rotation{
-   40% { transform: rotate(0deg);}
+   50% { transform: rotate(0deg);}
   100% { transform: rotate(359deg);}
 }
 
