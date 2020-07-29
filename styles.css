@@ -8,12 +8,7 @@ h1{
 	align-content: center;
 	color: white;
 }
-.css{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-}
-.javascript{
+.css, .javascript, .other{
 	display: flex;
 	justify-content: center;
 	align-content: center;
