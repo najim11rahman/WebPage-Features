@@ -1,0 +1,21 @@
+*{
+	background-color: grey;
+	margin: 100px;
+}
+
+p{
+	padding-top: 50px;
+	color: white;
+}
+
+button {
+	height: 40px;
+	background-color: red;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 400px;
+	margin-bottom: 1400px;
+}

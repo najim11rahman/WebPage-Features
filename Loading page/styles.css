@@ -1,0 +1,63 @@
+*{
+	margin: 10px;
+}
+
+.dot1{
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  animation: dotone 1.5s linear infinite;
+}
+
+.dot2{
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  animation: dottwo 1.5s linear infinite;
+}
+.dot3{
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  animation: dotthree 1.5s linear infinite;
+}
+
+.dot{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes dotone {
+  0% {
+    transform: scale(1, 1);
+  }
+  30% {
+    transform: scale(2, 2);
+  }
+}
+
+@keyframes dottwo {
+  30% {
+    transform: scale(1, 1);
+  }
+  60% {
+    transform: scale(2, 2);
+  }
+}
+
+@keyframes dotthree {
+  60% {
+    transform: scale(1, 1);
+  }
+  90% {
+    transform: scale(2, 2);
+  }
+}

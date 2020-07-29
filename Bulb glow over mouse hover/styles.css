@@ -1,0 +1,19 @@
+* {
+  margin: 80px;
+  padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+a{
+	position: relative;
+  	transition: filter 0.1s ease-in;
+  	opacity: 70%;
+}
+
+a:hover{
+  	filter: drop-shadow(0px 0px 100px #ffffff);
+  	opacity: 100%;
+}
